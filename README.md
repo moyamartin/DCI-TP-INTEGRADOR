@@ -1,17 +1,15 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
+* Autor: Martin Moya
+* Título corto del trabajo: Módulo PPG MAX30101
+* Descripción: Rediseño miniaturizado del módulo MAX30101 de MikroElektronika (sensor óptico de pulso y oximetría PPG) para su integración en un reloj. El objetivo es reducir el tamaño de la placa conservando la función de medición de frecuencia cardíaca y SpO2 por I2C.
 * Cursada: OCT-NOV-DIC 2026
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Este trabajo se distribuye bajo la licencia de hardware abierto CERN-OHL-P v2 (CERN Open Hardware Licence Version 2 - Permissive).
+El texto de la licencia debe colocarse en el directorio raíz (LICENSE).
 
 ## Estructura del TP FINAL ##
 
