@@ -5,7 +5,7 @@
 	(uuid "455e9339-7ca8-4aaf-888d-856ab6bd1577")
 	(paper "A4")
 	(title_block
-		(title "Modulo PPG")
+		(title "Replica Modulo PPG MikroE para MCUs")
 		(date "2026-11-26")
 		(comment 1 "Author: Martin Moya <moyamartin1@gmail.com>")
 		(comment 2 "License: CERN-OHL-P V2")
@@ -1453,6 +1453,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:SPX3819M5-L-1-8"
 			(pin_names
 				(offset 0.254)
@@ -2221,7 +2304,7 @@
 	)
 	(rectangle
 		(start 118.11 24.13)
-		(end 149.86 44.45)
+		(end 194.31 44.45)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -2307,9 +2390,9 @@
 		)
 		(uuid "993402a7-10fe-4833-a82e-6faf250c4e84")
 	)
-	(text "Fiducial\n"
+	(text "Fiducial and mounting holes"
 		(exclude_from_sim no)
-		(at 123.698 26.416 0)
+		(at 133.096 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,7 +4151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3482ebbc-3d01-4653-9df7-e0ce1d438a5f")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 245.11 116.8399 0)
 			(effects
 				(font
@@ -4134,7 +4217,7 @@
 		(instances
 			(project "ppg"
 				(path "/455e9339-7ca8-4aaf-888d-856ab6bd1577"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4530,7 +4613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb0bb62-c0bc-4fa3-94c9-df4ab07df8cb")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 143.51 65.9698 0)
 			(effects
 				(font
@@ -4612,7 +4695,7 @@
 		(instances
 			(project "ppg"
 				(path "/455e9339-7ca8-4aaf-888d-856ab6bd1577"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5055,6 +5138,70 @@
 			(project "ppg"
 				(path "/455e9339-7ca8-4aaf-888d-856ab6bd1577"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d5fdb4-9356-41b9-9ddc-da512732fa80")
+		(property "Reference" "H1"
+			(at 158.75 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.75 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ppg"
+				(path "/455e9339-7ca8-4aaf-888d-856ab6bd1577"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6531,70 +6678,6 @@
 			(project "ppg"
 				(path "/455e9339-7ca8-4aaf-888d-856ab6bd1577"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 138.43 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff8f1b80-d0f7-481a-ae59-b06f2563b1de")
-		(property "Reference" "FID4"
-			(at 140.97 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 140.97 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ppg"
-				(path "/455e9339-7ca8-4aaf-888d-856ab6bd1577"
-					(reference "FID4")
 					(unit 1)
 				)
 			)
