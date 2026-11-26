@@ -2350,9 +2350,9 @@
 		)
 		(uuid e39e8713-ac64-4110-96ea-76daa43fa458)
 	)
-	(text "PPG"
+	(text "PPG - MAX30101"
 		(exclude_from_sim no)
-		(at 37.084 74.422 0)
+		(at 43.688 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
