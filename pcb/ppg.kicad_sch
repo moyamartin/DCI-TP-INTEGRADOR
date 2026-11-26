@@ -5,7 +5,7 @@
 	(uuid "455e9339-7ca8-4aaf-888d-856ab6bd1577")
 	(paper "A4")
 	(title_block
-		(title "Replica Modulo PPG MikroE para MCUs")
+		(title "Replica Modulo PPG MikroE")
 		(date "2026-11-26")
 		(comment 1 "Author: Martin Moya <moyamartin1@gmail.com>")
 		(comment 2 "License: CERN-OHL-P V2")
